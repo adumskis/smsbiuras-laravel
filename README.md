@@ -5,14 +5,14 @@ Package that helps integrate [www.smsbiuras.lt][sms-biuras] API into Laravel fra
 ## Installation
 
 Install package using Composer:
-`composer require adumskis/smsbiuras-api `
+`composer require adumskis/smsbiuras-laravel `
 
 Add `SmsBiurasServiceProvider` to `providers` list in `config/app.php`:
 ```
-Adumskis\SmsBiuras\Providers\SmsBiurasServiceProvider
+Adumskis\SmsBiurasLaravel\Providers\SmsBiurasServiceProvider
 ```
 Publish `sms_biuras.php` config file:
-`php artisan vendor:publish --provider="Adumskis\SmsBiuras\Providers\SmsBiurasServiceProvider" --tag=config`
+`php artisan vendor:publish --provider="Adumskis\SmsBiurasLaravel\Providers\SmsBiurasServiceProvider" --tag=config`
 
 Set username and password variables in `.env` file:
 ```
