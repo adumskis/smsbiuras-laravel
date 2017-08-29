@@ -1,4 +1,4 @@
-SmsBiuras.lt API Package
+SmsBiuras.lt API Service Provider
 =========================
 Package that helps integrate [www.smsbiuras.lt][sms-biuras] API into Laravel framework based system.
 
