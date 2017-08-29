@@ -3,7 +3,7 @@
   "description": "Smsbiuras.lt API service provider for Laravel framework",
   "type": "laravel-package",
   "require": {
-    "adumskis/smsbiuras-php": "1.0",
+    "adumskis/smsbiuras-php": "1.0.0",
     "illuminate/support": "^5.2",
     "php": ">=5.6"
   },
