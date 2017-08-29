@@ -9,7 +9,7 @@ Install package using Composer:
 
 Add `SmsBiurasServiceProvider` to `providers` list in `config/app.php`:
 ```
-Adumskis\SmsBiurasLaravel\Providers\SmsBiurasServiceProvider
+Adumskis\SmsBiurasLaravel\Providers\SmsBiurasServiceProvider::class
 ```
 Publish `sms_biuras.php` config file:
 `php artisan vendor:publish --provider="Adumskis\SmsBiurasLaravel\Providers\SmsBiurasServiceProvider" --tag=config`
@@ -24,7 +24,7 @@ SMSBIURAS_PASSWORD=[password]
 
 All method should be called from `SmsBiuras` facade:
 ```
-use Adumskis\SmsBiuras\Facade\SmsBiuras;
+use Adumskis\SmsBiurasLaravel\Facade\SmsBiuras;
 ```   
 ### Sending SMS
 
